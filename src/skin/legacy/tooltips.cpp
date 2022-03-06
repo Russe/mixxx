@@ -450,6 +450,10 @@ void Tooltips::addStandardTooltips() {
     add("rate_toggle")
         <<tr("Toggle visibility of Rate Control");
 
+    // Show Key Control
+    add("show_key_controls")
+        <<tr("Toggle visibility of Key Control");
+
     // Used in cue/hotcue/loop tooltips below.
     QString quantizeSnap = tr("If quantize is enabled, snaps to the nearest beat.");
     add("quantize")
